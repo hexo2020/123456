@@ -105,5 +105,5 @@ theme: Butterfly2
 
 deploy:
   type: git
-  repository: git@github.com:565740950/blog.git
+  repository: git@github.com:hexo2020/blog.git
   branch: master
