@@ -102,11 +102,11 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img:
+  img: https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/touxiang.jpg
   effect: false
 
 # the banner image of home page
-index_img: https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/555.jpg
+index_img: https://cdn.jsdelivr.net/gh/565740950/CDN@master/IMG/beij.jpg
 
 # if the banner of page not setting, it will show the top_img
 default_top_img:
@@ -580,7 +580,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # loop (循環打字)
@@ -598,6 +598,9 @@ subtitle:
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
+    - 林林总总，不足而医
+   –what the fuck! aaaa?
+
 
 # Loading Animation (加載動畫)
 preloader: false
@@ -784,7 +787,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/lazyload
 lazyload:
-  enable: false
+  enable: ture
   post: /img/loading.gif
 
 # PWA
