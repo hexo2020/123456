@@ -6,15 +6,15 @@
 title: 林林总总
 subtitle: 'POWER'
 description: '飞流直下三千尺'
-keywords:
+keywords: 忘眼云烟，少时诵诗书
 author: 林总
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://hexo2020.github.io
-root: /blog/
+url: https://test.zhengapple.cn
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
