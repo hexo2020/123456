@@ -26,8 +26,8 @@ jobs:
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git config --global user.name "565740950"
-          git config --global user.email "19170@163.com"
+          git config --global user.name "hexo2020"
+          git config --global user.email "17949@163.com"
 
       - name: 安装 Hexo CI
         run: |
