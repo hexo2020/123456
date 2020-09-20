@@ -495,17 +495,8 @@ tag_ui: # 留空或 index
 # The formal of color: '#49B202'
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # White color will be shown as default
-background: 
-     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_1.jpg
-     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_2.jpg
-     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_3.jpg
-     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_4.jpg
-     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_5.jpg
-     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_6.jpg
-     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_7.jpg
-     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_8.jpg
-     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_9.jpg
-     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_10.jpg
+background: https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_9.jpg
+    
 #"#efefef"
 
 # Show the footer background image (same as top_img)
