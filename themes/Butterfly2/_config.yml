@@ -11,12 +11,12 @@ menu:
   时间轴: /archives/ || fa fa-archive
   标签: /tags/ || fa fa-tags
   分类: /categories/ || fa fa-folder-open
-  清单||fa fa-heartbeat:
+  生活||fa fa-heartbeat:
     - 音乐 || /music/ || fa fa-music
-    - 照片 || /Gallery/ || fa fa-picture-o
-    - 电影 || /movies/ || fa fa-film
-  友链: /link/ || fa fa-link
-  关于: /about/ || fa fa-heart
+    #- 照片 || /Gallery/ || fa fa-picture-o
+    #- 电影 || /movies/ || fa fa-film
+  #友链: /link/ || fa fa-link
+  #关于: /about/ || fa fa-heart
   留言板: /messageboard/ || fa fa-link
   # Home: / || fas fa-home
   # Archives: /archives/ || fas fa-archive
@@ -106,10 +106,10 @@ avatar:
   effect: false
 
 # the banner image of home page
-index_img: https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/555.jpg
+index_img: https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/back_1.jpg
 
 # if the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: 
 
 # the banner image of archive page
 archive_img:
@@ -553,7 +553,7 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
@@ -589,7 +589,7 @@ subtitle:
   # source: false 關閉調用
   # source: 1  調用搏天api的隨機語錄（簡體） https://api.btstu.cn/
   # source: 2  調用一言網的一句話（簡體） https://hitokoto.cn/
-  # source: 3  調用一句網（簡體） http://yijuzhan.com/
+  source: 3  調用一句網（簡體） http://yijuzhan.com/
   # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: false
@@ -615,10 +615,10 @@ aside:
     button:
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/hexo2020
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 林林总总自留地
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -784,7 +784,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/lazyload
 lazyload:
-  enable: false
+  enable: ture
   post: /img/loading.gif
 
 # PWA
