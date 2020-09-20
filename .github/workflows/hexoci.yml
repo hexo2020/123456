@@ -35,16 +35,29 @@ jobs:
           npm i -g hexo-cli
           npm i
 
-      - name: 安装插件
+      #- name: 安装插件
+      #  run: |
+      #    npm install hexo-renderer-pug --save
+      #    npm install hexo-renderer-stylus --save
+      #    npm install hexo-deployer-git --save
+      #    npm install hexo-generator-search --save
+      #    npm install hexo-douban --save
+      #   npm install hexo-generator-feed --save
+      #    npm install hexo-abbrlink --save
+      #    npm install hexo-wordcount --save
+      - name: 緩存
+        uses: actions/cache@v1
+        id: cache-dependencies
+        with:
+          path: node_modules
+          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+
+      - name: 安裝插件
+        if: steps.cache-dependencies.outputs.cache-hit != 'true'
         run: |
-          npm install hexo-renderer-pug --save
-          npm install hexo-renderer-stylus --save
-          npm install hexo-deployer-git --save
-          npm install hexo-generator-search --save
-          npm install hexo-douban --save
-          npm install hexo-generator-feed --save
-          npm install hexo-abbrlink --save
-          npm install hexo-wordcount --save
+          npm install
+
+
 
       - name: 部署博客
         run: |
