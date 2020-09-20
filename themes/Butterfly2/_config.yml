@@ -598,8 +598,6 @@ subtitle:
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 林林总总，不足而医
-   –what the fuck! aaaa?
 
 
 # Loading Animation (加載動畫)
