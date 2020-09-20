@@ -116,11 +116,11 @@ archive_img:
 
 # the banner image of tag page
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/back_1.jpg
 
 # the banner image of category page
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:
+category_img: https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/back_1.jpg
 
 # If you are using hexo-douban, you can configure it (如果你有使用 hexo-douban,可配置這個)
 # douban:
@@ -138,9 +138,17 @@ cover:
   # left/right/both
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
-  default_cover:
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-
+  default_cover:     
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_1.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_2.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_3.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_4.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_5.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_6.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_7.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_8.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_9.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_10.jpg
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
   flink: /img/friend_404.gif
@@ -487,7 +495,18 @@ tag_ui: # 留空或 index
 # The formal of color: '#49B202'
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # White color will be shown as default
-background: "#efefef"
+background: 
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_1.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_2.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_3.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_4.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_5.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_6.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_7.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_8.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_9.jpg
+     - https://cdn.jsdelivr.net/gh/565740950/CDN@IMG/POST_10.jpg
+#"#efefef"
 
 # Show the footer background image (same as top_img)
 footer_bg: false
@@ -580,7 +599,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # loop (循環打字)
@@ -592,12 +611,14 @@ subtitle:
   # source: 3  調用一句網（簡體） http://yijuzhan.com/
   # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  # source: false
+  source: false
   # 如果有英文逗號' , ',請使用轉義字元 &#44;
   # 如果有英文雙引號' " ',請使用轉義字元 &quot;
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
+    - 今日事&#44;今日畢
+    - Never put off till tomorrow what you can do today
 
 # Loading Animation (加載動畫)
 preloader: false
@@ -813,10 +834,10 @@ fragment_cache: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/pool.min.css">
-   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/iconfont.min.css">
+   #- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/pool.min.css">
+   #- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/iconfont.min.css">
   bottom:
-   - <script src="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@latest/butterfly/js/pool.min.js"></script>
+   #- <script src="https://cdn.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@latest/butterfly/js/pool.min.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
