@@ -35,8 +35,9 @@ jobs:
           npm i -g hexo-cli
           npm i
 
-      #- name: 安装插件
-      #  run: |
+      - name: 安装插件
+        run: |
+          npm install hexo-generator-restful --save
       #    npm install hexo-renderer-pug --save
       #    npm install hexo-renderer-stylus --save
       #    npm install hexo-deployer-git --save
